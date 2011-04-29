@@ -1,0 +1,11 @@
+{application, gen_event_forwarder,
+ [
+  {description, "gen_event forwarder"},
+  {vsn, "1.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
